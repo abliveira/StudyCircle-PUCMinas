@@ -1,0 +1,122 @@
+{
+  "project_info": {
+    "project_number": "479969587219",
+    "firebase_url": "https://studycircle-6fef1-default-rtdb.firebaseio.com",
+    "project_id": "studycircle-6fef1",
+    "storage_bucket": "studycircle-6fef1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479969587219:android:86d3094d1eba94e3944fe6",
+        "android_client_info": {
+          "package_name": "com.abliveira.studycircle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479969587219-pfp6ll2ee15ga12j18slkpnj5q5s1u44.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abliveira.studycircle",
+            "certificate_hash": "ce1e2f572380cc79fd74f6985ef2ee4bfcf74c73"
+          }
+        },
+        {
+          "client_id": "479969587219-3qmrd351du37uecf8mhsrepc3ua30mho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjheLLd55K1-VXopZqHHGdF86hd1_R7yo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479969587219-3qmrd351du37uecf8mhsrepc3ua30mho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479969587219:android:b866ed5e9ba88361944fe6",
+        "android_client_info": {
+          "package_name": "com.abliveira.studycirle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479969587219-b7orqqjc6uvta8kmsdgi2umt11i7g09p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abliveira.studycirle",
+            "certificate_hash": "ce1e2f572380cc79fd74f6985ef2ee4bfcf74c73"
+          }
+        },
+        {
+          "client_id": "479969587219-3qmrd351du37uecf8mhsrepc3ua30mho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjheLLd55K1-VXopZqHHGdF86hd1_R7yo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479969587219-3qmrd351du37uecf8mhsrepc3ua30mho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479969587219:android:d27ca219c3c4fdf2944fe6",
+        "android_client_info": {
+          "package_name": "com.openclassrooms.firebaseoc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479969587219-gpd7gmu4sr1nlslvsnd4q193f6crht4u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.openclassrooms.firebaseoc",
+            "certificate_hash": "ce1e2f572380cc79fd74f6985ef2ee4bfcf74c73"
+          }
+        },
+        {
+          "client_id": "479969587219-3qmrd351du37uecf8mhsrepc3ua30mho.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjheLLd55K1-VXopZqHHGdF86hd1_R7yo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479969587219-3qmrd351du37uecf8mhsrepc3ua30mho.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

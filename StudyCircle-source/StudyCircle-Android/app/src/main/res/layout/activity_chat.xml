@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:id="@+id/recyclerViewContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/messageContainer"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/emptyRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_large_margin"
+            android:text="@string/text_view_chat_error"
+            android:textAlignment="center" />
+
+        <!-- RECYCLER VIEW -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/chatRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imagePreview"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_above="@id/messageContainer"
+        android:layout_margin="@dimen/default_margin" />
+
+    <LinearLayout
+        android:id="@+id/messageContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:gravity="center"
+        android:padding="@dimen/default_text_size_mini">
+
+        <ImageButton
+            android:id="@+id/addFileButton"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_add_24dp" />
+
+        <EditText
+            android:id="@+id/chatEditText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/text_input_title_chat_activity"
+            android:imeOptions="actionDone"
+            android:inputType="textMultiLine"
+            android:textColorHint="@color/colorMidGrey"
+            android:backgroundTint="@color/colorMidGrey"
+            android:textSize="@dimen/default_text_size" />
+
+        <ImageButton
+            android:id="@+id/sendButton"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_send_24dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

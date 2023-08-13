@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name" translatable="false">StudyCircle</string>
+
+    <string name="login">Conectar</string>
+    <string name="welcome_message_main_activity">Bem-vindo!</string>
+    <string name="help_message_main_activity">Conecte-se para prosseguir</string>
+
+    <!-- NOTIFICATION SERVICE -->
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="notification_title">Você tem uma nova notificação</string>
+
+    <!-- MAIN ACTIVITY -->
+    <string name="error_authentication_canceled">Autentificação abortada&#8230;</string>
+    <string name="error_no_internet">Rede indisponível</string>
+    <string name="error_unknown_error">Um erro ocorreu&#8230;</string>
+    <string name="connection_succeed">Autentificação bem-sucedida!</string>
+
+    <!-- LOGIN ACTIVITY -->
+    <string name="text_input_username">Nome de usuário</string>
+    <string name="button_update_account">Salvar</string>
+    <string name="button_delete_account">Excluir conta</string>
+    <string name="button_sign_out_account">Desconectar</string>
+    <string name="info_no_email_found">Email não encontrado</string>
+    <string name="info_no_username_found">Nome de usuário não encontrado</string>
+    <string name="popup_message_confirmation_delete_account">Deseja realmente excluir sua conta?</string>
+    <string name="popup_message_choice_yes">Sim</string>
+    <string name="popup_message_choice_no">Não</string>
+
+    <!-- RECENT CHATS ACTIVITY -->
+    <string name="toolbar_title_recent_chats_activity" translatable="false">StudyCircle</string>
+    <string name="tab_title_groups_recent_chats_activity">Grupos</string>
+    <string name="tab_title_chats_recent_chats_activity">Conversas</string>
+    <string name="tab_title_profile_recent_chats_activity">Perfil</string>
+    <string name="chat_title_1_recent_chats_activity" translatable="false">Circuitos Eletrônicos</string>
+    <string name="chat_title_2_recent_chats_activity" translatable="false">Clube da Leitura</string>
+    <string name="chat_title_3_recent_chats_activity" translatable="false">Engenharia Elétrica (Geral)</string>
+
+    <!-- CHAT ACTIVITY -->
+    <string name="toolbar_title_chat_activity">Sala de Bate-Papo</string>
+    <string name="text_input_title_chat_activity">Digite uma mensagem</string>
+    <string name="text_view_chat_error">Não há mensagens nesta conversa&#8230;</string>
+    <string name="popup_title_permission_files_access">Para anexar uma foto, StudyCircle requer permissões adicionais.</string>
+    <string name="toast_title_no_image_chosen">Nenhuma imagem selecionada&#8230;</string>
+
+    <!-- PROFILE ACTIVITY -->
+    <string name="userName_hint_profile_activity">Nome</string>
+    <string name="userType_hint_profile_activity">Tipo de Perfil</string>
+    <string name="userType_student_profile_activity">Aluno</string>
+    <string name="userType_professor_profile_activity">Professor</string>
+    <string name="userType_request_profile_activity">Requisitar Troca</string>
+    <string name="userType_dialog_profile_activity">Deseja trocar o seu tipo de perfil?</string>
+
+</resources>
